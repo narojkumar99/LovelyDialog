@@ -185,7 +185,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 .setTopColor(color(R.color.darkDeepOrange))
                 .setTitle(R.string.text_input_title)
                 .setMessage(R.string.text_input_message)
-                .setIcon(R.drawable.ic_assignment_white_36dp)
+                .setIcon(R.drawable.ic_assignment_white_36dp).
+                setTopDrawble(getResources().getDrawable(R.drawable.health_image_small))
                 .setInstanceStateHandler(ID_TEXT_INPUT_DIALOG, saveStateHandler)
                 .setInputFilter(R.string.text_input_error_message, new LovelyTextInputDialog.TextFilter() {
                     @Override

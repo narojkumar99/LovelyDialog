@@ -107,6 +107,11 @@ public abstract class AbsLovelyDialog<T extends AbsLovelyDialog> {
         return (T) this;
     }
 
+    public T setTopDrawble(Drawable topDrawble) {
+        ((ImageView) findView(R.id.ld_bg)).setImageDrawable(topDrawble);
+        return (T) this;
+    }
+
     /*
      * You should call method saveInstanceState on handler object and then use saved info to restore
      * your dialog in onRestoreInstanceState. Static methods wasDialogOnScreen and getDialogId will
