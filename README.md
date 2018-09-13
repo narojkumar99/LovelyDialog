@@ -27,6 +27,7 @@ Each dialog has colored top, icon, title and message + its own features. There a
 * [LovelyChoiceDialog] (#lovelychoicedialog)
 * [LovelyProgressDialog] (#lovelyprogressdialog)
 * [LovelyCustomDialog] (#lovelycustomdialog)
+* [LovelyCustomDialog] (#lovelycustomdialog)
 
 #### LovelyStandardDialog
 You can set positive, negative and neutral button here. Listeners can be set individually for each button, one for all three or not set at all (onClick on any button dialog will be just dismissed).
